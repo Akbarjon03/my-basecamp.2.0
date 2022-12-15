@@ -1,0 +1,12 @@
+<br />
+<div class="card">
+  <div class="card-header">
+    <h1>New pattach</h1>
+  </div>
+
+  <div class="card-body">
+    <%= render "form", pattach: @pattach %>
+    <br/>
+    <%= link_to "Back to pattaches", project_pattaches_path(@project), class:"attachments" %>
+  </div>
+</div>

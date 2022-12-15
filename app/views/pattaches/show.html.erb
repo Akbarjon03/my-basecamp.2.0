@@ -1,0 +1,12 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+  <%= render @pattach %>
+  </div>
+
+  <div class="card-body">
+    <%= link_to "Edit this pattach", edit_pattach_path(@pattach), class:"attachments" %> | |
+    <%= link_to "Back to pattaches", project_pattaches_path(@project), class:"attachments" %>
+    <%= button_to "Destroy this pattach", @pattach, method: :delete , class:"deletebutton"%>
+  </div>
+</div>

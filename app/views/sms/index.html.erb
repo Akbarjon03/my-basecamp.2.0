@@ -1,0 +1,16 @@
+
+<div class="card">
+  <div class="card-header">
+    <h1>Messenge</h1>
+  </div>
+
+  <div id="sms" class="card-body">
+    <% @sms.each do |sm| %>
+      <%= render sm %>
+      <p>
+        <%= link_to "Show this messenger", sm %>
+      </p>
+    <% end %>
+  </div>
+  <%= link_to "New messenger", new_sm_path %>
+</div>

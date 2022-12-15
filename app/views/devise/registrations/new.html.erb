@@ -1,0 +1,25 @@
+  <br/>
+  <div class="signupdiv"><br/>
+  <h2>Sign up</h2>
+    <div class="all">
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= render "devise/shared/error_messages", resource: resource %>
+
+      <%= f.label :email, class: "nameemail" %><br />
+      <%= f.email_field :email, class: "emailinput", placeholder:"Enter your email address", autocomplete: "email" %>
+      
+      <%= f.label :password, class: "passname" %>
+      <%= f.password_field :password, class: "passwordinput", placeholder:"Create password", autocomplete: "new-password" %>
+      <% if @minimum_password_length %>
+      <% end %><br/>
+
+      <%= f.label :password_confirmation, class: "passname" %><br />
+      <%= f.password_field :password_confirmation, class: "passwordinput", placeholder:"Confirm password", autocomplete: "new-password" %>
+    
+      <div class="actions"><br />
+        <%= f.submit "Sign up", class:"signinbutton", data: {turbo: false} %>
+        <% end %>
+        <%= render "devise/shared/links" %>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-header">
+    <h1>Editing Messenge</h1>
+    <%= render "form", sm: @sm %>
+  </div>
+  <br>
+
+  <div class="card-body">
+    <%= link_to "Show this messenger", @sm , class:"editslinks"%> | |
+    <%= link_to "Back to messenger", sms_path , class:"editslinks"%>
+  </div>
+</div>

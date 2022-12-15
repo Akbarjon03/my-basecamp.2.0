@@ -1,0 +1,182 @@
+/* body */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3498DB;
+}
+
+/* navbar */
+
+.navbar-brand  {
+  margin-left: 3%;
+}
+
+.loginlinks {
+  margin-left: 10px;
+}
+
+.links {
+  margin-left: 1150px;
+}
+
+/* signup */
+
+h2 {
+  margin-left: 39%;
+  width: 300px;
+}
+
+.all {
+  text-align: center;
+}
+
+.signupdiv {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 28%;
+  height: 550px;
+  width: 550px;
+}
+
+.nameemail {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.emailinput {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
+}
+
+.passname {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.passwordinput {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
+}
+
+.signinbutton {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.signinbutton:hover {
+  background-color: #2980B9;
+}
+
+/* login */
+
+h3 {
+  margin-left: 42%;
+}
+
+.namelogin {
+  margin: 20px auto;
+  margin-right: 2%;
+  width: 300px;
+}
+
+/* main basecamp page */
+
+.aboutuslink {
+  margin-left: 1000px;
+}
+
+.createlinks {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.backtolink {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.submit {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.attachments {
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.editslinks {
+  text-decoration: none;
+  font-size: 19px;
+}
+.deletebutton {
+  border: 2px solid transparent;
+  background: red;
+  color: #ffffff;
+  font-size: 16px;
+  text-shadow: none;
+  border-radius: 3px;
+}
+
+.img_upload{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+h1 {
+  color: black;
+}
+
+h6 {
+  margin-top: 3%;
+  color: #ddd;
+  font-size: 60px;
+}
+
+em {
+  color: #ddd;
+  font-size: 40px;
+}
+

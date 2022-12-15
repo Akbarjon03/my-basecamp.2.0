@@ -1,0 +1,11 @@
+<br />
+<div class="card">
+  <div class="card-header">
+    <%= render @todo %>
+  </div>
+  <div class="card-body">
+    <%= link_to "Edit this todo", edit_todo_path(@todo) , class:"editslinks" %> | |
+    <%= link_to "Back to todos", project_todos_path(@project), class:"editslinks" %> 
+    <%= button_to "Destroy this todo", @todo, method: :delete, class:"btn btn-danger btn-hover" %>
+  </div>
+</div>

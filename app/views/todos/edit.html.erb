@@ -1,0 +1,12 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+    <h1>Editing todo</h1>
+  </div>
+  <div class="card-body">
+    <%= render "eform", todo: @todo %> <br/>
+    <%= link_to "Show this todo", @todo ,class:"editslinks" %> | |
+    <%= link_to "Back to todos", project_todos_path(@project) , class:"editslinks"%>
+  </div>
+</div>
+

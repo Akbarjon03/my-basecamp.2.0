@@ -1,0 +1,13 @@
+<br />
+<div class="card">
+  <div class="card-header"> 
+    <h1>New Message</h1>
+  </div>
+  <div class="card-body">
+    <%= render "form", msg: @msg %>
+    <br>
+    <div>
+      <%= link_to "Back to Message", project_msgs_path(@project) , class:"editslinks" %>
+    </div>
+  </div>
+</div>

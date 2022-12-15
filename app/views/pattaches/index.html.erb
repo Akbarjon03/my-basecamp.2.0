@@ -1,0 +1,18 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+    <h1>Pattaches</h1>
+  </div>
+  <div class="card-body">
+    <div id="pattaches">
+      <% @pattaches.each do |pattach| %>
+        <%= render pattach %>
+        <p>
+          <%= link_to "Show this pattach", pattach, class:"attachments" %>
+        </p>
+      <% end %>
+      <%= link_to "New pattach", new_project_pattach_path(@project), class:"attachments" %>
+    </div>
+  </div>
+
+

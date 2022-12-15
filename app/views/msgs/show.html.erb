@@ -1,0 +1,20 @@
+<br/>
+<div class="card">
+  <div class="card-header"> 
+    <%= render @msg %>
+      <%= link_to "Edit this Message", edit_msg_path(@msg) , class:"editslinks" %> |
+      <%= link_to "Back to Messages", project_msgs_path(@project) , class:"editslinks" %>
+      <%= button_to "Destroy this Message", @msg, method: :delete, class:"btn btn-danger btn-hover" %>
+
+      <%= render 'sms/form', sm: @sm %>
+      <div id="sms">
+        <% @sms.each do |sm| %>
+          <%= sm.title %>
+          <p>
+            <%= link_to "Show this Message", sm , class:"editslinks" %>
+            <%= button_to "Destroy this Message", [@msg,sm], method: :delete , class:"btn btn-danger btn-hover" %>
+          </p>
+        <% end %>
+      </div>
+  </div>
+</div>
